@@ -16,6 +16,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-        -name: Run Test
+      - name: Run Test
         run: echo "Run Test"
         run: 0-2.js
