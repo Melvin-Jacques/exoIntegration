@@ -1,0 +1,14 @@
+name: github-actions
+run-name: melvin
+
+on:
+  push:
+    branches:
+      - feature
+
+jobs:
+  hello-world-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world action
+        run: echo "Hello world"
